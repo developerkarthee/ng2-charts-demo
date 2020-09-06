@@ -17,7 +17,10 @@ export class AppComponent  {
     legend: {
       display: true,
       labels: {
-        fontColor: 'black'
+        fontColor: 'green',//legend label color
+        fontSize: 10,//legendlabel size
+        usePointStyle: false,//legendshape point style
+         boxWidth : 20
       },
       position:'bottom'
     },
